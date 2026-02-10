@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Silver Art Lab</title>
+  <meta name="description" content="Silver Art Lab — disegni da colorare, PDF stampabili e app creativa." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <button class="icon-btn" id="menuBtn" aria-label="Apri menu">
+      <span class="hamburger"><span></span></span>
+    </button>
+
+    <a class="brand" href="index.html">
+      <span class="brand__dot"></span>
+      <span class="brand__name">Silver Art Lab</span>
+    </a>
+
+    <a class="pill" href="digital.html">PDF & Libri</a>
+  </header>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer__header">
+      <strong>Menu</strong>
+      <button class="icon-btn" id="closeBtn" aria-label="Chiudi menu">✕</button>
+    </div>
+    <nav class="drawer__nav">
+      <a class="navlink active" href="index.html">Home</a>
+      <a class="navlink" href="digital.html">Digital (PDF & Libri)</a>
+      <a class="navlink" href="gadget.html">Gadget</a>
+      <a class="navlink" href="index.html#contatti">Contatti</a>
+    </nav>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <main class="container">
+
+    <section class="hero card">
+      <div>
+        <h1>Disegni da colorare & creatività digitale</h1>
+        <p class="muted">
+          Benvenutə in <strong>Silver Art Lab</strong>.
+          Creo disegni da colorare, libri digitali e una app creativa pensata per rilassarsi e creare.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn" href="#" target="_blank" rel="noopener">Google Play (presto)</a>
+          <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">App Store (presto)</a>
+        </div>
+      </div>
+
+      <div class="artframe">
+        <svg class="lineart" viewBox="0 0 500 350" aria-label="Disegno da colorare">
+          <path d="M120 220c-10-70 20-130 80-150 40-15 80 5 90 30 10-25 50-45 90-30
+                   60 20 90 80 80 150-20 90-110 120-170 120S140 310 120 220Z"/>
+          <path d="M180 150l-35-40M320 150l35-40"/>
+          <path d="M220 200c10 10 25 10 35 0M270 200c10 10 25 10 35 0"/>
+          <path d="M245 230c10 10 20 10 30 0"/>
+          <path d="M200 270c40 25 110 25 150 0"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <article class="card">
+        <h2>PDF & Libri digitali</h2>
+        <p class="muted">
+          Pagine da colorare e libri digitali in PDF, pronti per la stampa o l’uso digitale.
+        </p>
+        <a class="link" href="digital.html">Vai ai contenuti digitali →</a>
+      </article>
+
+      <article class="card">
+        <h2>Gadget per disegno</h2>
+        <p class="muted">
+          Strumenti e accessori creativi selezionati per chi ama disegnare e colorare.
+        </p>
+        <a class="link" href="gadget.html">Scopri i gadget →</a>
+      </article>
+    </section>
+
+    <section class="card" id="contatti" style="margin-top:16px;">
+      <h2>Contatti</h2>
+
+      <ul class="list">
+        <li>
+          <strong>Instagram:</strong>
+          <a class="link" href="https://instagram.com/silverartlab91" target="_blank" rel="noopener">@silverartlab91</a>
+        </li>
+        <li>
+          <strong>Email (assistenza):</strong>
+          <a class="link" href="mailto:xxsilverxxbusiness@gmail.com">xxsilverxxbusiness@gmail.com</a>
+        </li>
+        <li><strong>Pinterest:</strong> <span class="muted">in arrivo</span></li>
+      </ul>
+
+      <p class="muted small">© <span id="year"></span> Silver Art Lab</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
