@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gadget — Silver Art Lab</title>
+  <meta name="description" content="Gadget e strumenti per disegno — Silver Art Lab." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <button class="icon-btn" id="menuBtn" aria-label="Apri menu">
+      <span class="hamburger"><span></span></span>
+    </button>
+
+    <a class="brand" href="index.html">
+      <span class="brand__dot"></span>
+      <span class="brand__name">Silver Art Lab</span>
+    </a>
+
+    <a class="pill" href="digital.html">Digital</a>
+  </header>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer__header">
+      <strong>Menu</strong>
+      <button class="icon-btn" id="closeBtn" aria-label="Chiudi menu">✕</button>
+    </div>
+    <nav class="drawer__nav">
+      <a class="navlink" href="index.html">Home</a>
+      <a class="navlink" href="digital.html">Digital (PDF & Libri)</a>
+      <a class="navlink active" href="gadget.html">Gadget</a>
+      <a class="navlink" href="index.html#contatti">Contatti</a>
+    </nav>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <main class="container">
+    <section class="card">
+      <h1>Gadget per disegno</h1>
+      <p class="muted">
+        Qui metteremo gadget e strumenti creativi. Per restare gratis, i bottoni “Compra”
+        punteranno a una piattaforma esterna (Etsy / print-on-demand / ecc.).
+      </p>
+    </section>
+
+    <section class="grid2" style="margin-top:16px;">
+      <article class="card">
+        <h2>Set penne / marker (placeholder)</h2>
+        <p class="muted small">Descrizione breve • per chi è • cosa include</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">Compra</a>
+      </article>
+
+      <article class="card">
+        <h2>Quaderno / sketchbook (placeholder)</h2>
+        <p class="muted small">Copertina personalizzata • fogli interni</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">Compra</a>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital — Silver Art Lab</title>
+  <meta name="description" content="PDF e libri digitali — Silver Art Lab." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <button class="icon-btn" id="menuBtn" aria-label="Apri menu">
+      <span class="hamburger"><span></span></span>
+    </button>
+
+    <a class="brand" href="index.html">
+      <span class="brand__dot"></span>
+      <span class="brand__name">Silver Art Lab</span>
+    </a>
+
+    <a class="pill" href="gadget.html">Gadget</a>
+  </header>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer__header">
+      <strong>Menu</strong>
+      <button class="icon-btn" id="closeBtn" aria-label="Chiudi menu">✕</button>
+    </div>
+    <nav class="drawer__nav">
+      <a class="navlink" href="index.html">Home</a>
+      <a class="navlink active" href="digital.html">Digital (PDF & Libri)</a>
+      <a class="navlink" href="gadget.html">Gadget</a>
+      <a class="navlink" href="index.html#contatti">Contatti</a>
+    </nav>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <main class="container">
+    <section class="card">
+      <h1>PDF & Libri digitali</h1>
+      <p class="muted">
+        Qui caricheremo i tuoi prodotti digitali (PDF da colorare e libri).
+        Per restare <strong>gratis</strong>, i bottoni “Compra” punteranno a un checkout esterno (es. Payhip).
+        Quando avrai i PDF, aggiorniamo i link.
+      </p>
+    </section>
+
+    <section class="grid2" style="margin-top:16px;">
+      <article class="card">
+        <h2>PDF da colorare (in arrivo)</h2>
+        <p class="muted small">Esempi: mandala, animali cute, paesaggi, line art semplice.</p>
+        <div class="btnrow">
+          <a class="btn" href="#" target="_blank" rel="noopener">Compra (placeholder)</a>
+          <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">Anteprima (placeholder)</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Libri digitali (in arrivo)</h2>
+        <p class="muted small">Ebook/PDF: lettura offline, capitoli brevi.</p>
+        <div class="btnrow">
+          <a class="btn" href="#" target="_blank" rel="noopener">Compra (placeholder)</a>
+          <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">Indice (placeholder)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:16px;">
+      <h2>Licenza d’uso</h2>
+      <p class="muted">
+        <strong>USO PERSONALE — NON RIVENDIBILE.</strong><br>
+        Vietato rivendere/redistribuire, caricare online o usare per scopi commerciali.
+        Quando creiamo i PDF veri, inseriamo questa licenza nella prima pagina.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
