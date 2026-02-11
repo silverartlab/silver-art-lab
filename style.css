@@ -211,6 +211,15 @@ a:visited{ color: inherit; }
   background: rgba(17,19,26,.78);
 }
 
+
+
+/* Disabled button (no link) */
+.btn--disabled{
+  opacity:.5;
+  pointer-events:none;
+  border-color: rgba(42,47,58,.6);
+  background: rgba(17,19,26,.35);
+}
 /* Text helpers */
 .muted{color: var(--muted);}
 .small{font-size: 13px;}
